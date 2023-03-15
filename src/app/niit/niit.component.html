@@ -4,7 +4,7 @@ The full stack Product Engineering program is designed to transform you to proje
 </h6>
 <div>
     <div *ngFor="let i of animation">
-        <div class="card" style="width: 18rem;">
+        <div routerLink="/cardview/{{i.id}}"class="card" style="width: 18rem;">
     <img src="../../assets/{{i.url}}.gif" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title{{i.name}}</h5>

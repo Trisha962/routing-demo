@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-niit',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./niit.component.css']
 })
 export class NIITComponent {
+  // constructor(private route:Router){}
   animation=[
     {id:1,url:"animation1",name:"Image one"},
     {id:2,url:"animation2",name:"Image two"},
